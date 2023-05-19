@@ -5,6 +5,9 @@
 *{
     font-family:'Montserrat';
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0 auto;
     padding: 0;
@@ -211,10 +214,23 @@ main{
     padding-bottom: 10px;
 }
 
+/* footer */
+footer{
+    margin: 50px;
+    margin-bottom:10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+footer .conditions a{
+    text-decoration: none;
+    color: black;
+    font-weight:  600;
+}
+footer .copyright{
+    font-weight: 600;
 
-
-
-
+}
 
 
 /* ----------media query---------- */
