@@ -5,6 +5,9 @@
 *{
     font-family:'Montserrat';
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0 auto;
     padding: 0;
